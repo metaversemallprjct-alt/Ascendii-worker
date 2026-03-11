@@ -1,0 +1,11 @@
+{
+  "name": "ascendii-worker",
+  "version": "1.0.0",
+  "devDependencies": {
+    "wrangler": "^3.0.0"
+  },
+  "scripts": {
+    "build": "echo 'No build step needed for simple workers' && exit 0",
+    "deploy": "wrangler deploy"
+  }
+}
